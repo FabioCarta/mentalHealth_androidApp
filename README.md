@@ -6,7 +6,7 @@
  
 ## Screenshots
 
-<img src="https://github.com/fabiocarta/mentalHealth_androidApp/blob/main/Screenshot_LogIn.png" width="33%"> <img src="https://github.com/fabiocarta/mentalHealth_androidApp/blob/main/Screenshot_GoogleLogIn.png" width="33%">
+<img src="https://github.com/fabiocarta/mentalHealth_androidApp/blob/main/Screenshot_LogIn.png" width="33%"> <img src="https://github.com/fabiocarta/mentalHealth_androidApp/blob/main/Screenshot_GoogleLogIn.png" width="33%"> 
 <img src="https://github.com/fabiocarta/mentalHealth_androidApp/blob/main/Screenshot_HomeFragment.png" width="33%">
 <img src="https://github.com/fabiocarta/mentalHealth_androidApp/blob/main/Screenshot_ProfilFragment.png" width="33%">
 <img src="https://github.com/fabiocarta/mentalHealth_androidApp/blob/main/Screenshot_QuestFragment_Offene.png" width="33%">

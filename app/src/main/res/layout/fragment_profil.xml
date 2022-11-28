@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilFragment"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="20dp"
+            android:hint="Name"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/alter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/name"
+            android:background="#30ffffff"
+            android:drawableLeft="@drawable/ic_baseline_cake_24"
+            android:drawablePadding="20dp"
+            android:hint="Alter"
+            android:inputType="number"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beruf:"
+            android:layout_below="@id/name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:id="@+id/textViewBeruf"
+            android:drawablePadding="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"/>
+
+        <TextView
+            android:id="@+id/textViewBeruf2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBeruf"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="20dp"
+            android:padding="10dp"
+            android:text="Arbeitnehmer"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewBeruf3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBeruf2"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="20dp"
+            android:padding="10dp"
+            android:text="Arbeitgeber"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewBeruf4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBeruf3"
+            android:layout_marginStart="10dp"
+
+            android:backgroundTint="@color/white"
+            android:drawablePadding="20dp"
+            android:padding="10dp"
+            android:text="Student"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewBeruf5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBeruf4"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:text="Ausbildung"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBeruf"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/textViewBeruf2"
+            android:gravity="center_horizontal" />
+
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBeruf2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/textViewBeruf2"
+            android:gravity="center_horizontal" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBeruf3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/textViewBeruf2"
+            android:gravity="center_horizontal" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBeruf4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/textViewBeruf2"
+            android:gravity="center_horizontal" />
+
+
+
+    </RelativeLayout>
+</FrameLayout>

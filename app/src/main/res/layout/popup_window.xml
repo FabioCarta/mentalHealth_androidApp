@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/toplayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="#FFFFFF"
+        android:minHeight="360dp"
+        android:paddingTop="10dp">
+
+
+        <TextView
+            android:id="@+id/questdetailpopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="text"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_below="@+id/toplayout"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="#FFFFFF">
+
+        <Button
+            android:id="@+id/questaccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="25dp"
+            android:backgroundTint="@color/Blue"
+            android:text="Annehmen" />
+
+        <Button
+            android:id="@+id/popupclose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="@color/Blue"
+            android:text="schließen" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

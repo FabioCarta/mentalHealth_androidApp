@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Herzlich Willkommen bei Mental Health"
+        android:layout_marginTop="35dp"
+        android:id="@+id/welcome"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_person_pin_24" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilePic"
+        android:layout_centerInParent="true"
+        android:text="name"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:text="Durchschnitt: 8"
+        android:id="@+id/avg"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avg"
+        android:text="Punkte Sport: 8"
+        android:id="@+id/sport"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sport"
+        android:text="Punkte Haushalt: 6"
+        android:textColor="@color/white"
+        android:id="@+id/haushalt"
+        android:textSize="24dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@id/haushalt"
+        android:text="Punkte Mindset: 12"
+        android:id="@+id/mindset"
+        android:textSize="24dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mindset"
+        android:text="Punkte Social: 6"
+        android:textColor="@color/white"
+        android:id="@+id/social"
+        android:textSize="24dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abmelden"
+        android:backgroundTint="@color/Blue"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/signoutbtn"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>
